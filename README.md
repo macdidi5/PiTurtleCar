@@ -152,5 +152,7 @@ Android開發環境安裝與設定請參考[http://www.codedata.com.tw/mobile/an
 
 這個專案使用MQTT技術讓Android App控制Raspberry Pi，比較不是MQTT適合的應用。因為我一時找不到USB藍牙給Raspberry Pi使用，透過藍牙搖控車子會比較好一些，或許以後會把這個專案改為藍牙搖控車。
 
+因為Raspberry Pi負責Webcam視訊的串流，建議使用Raspberry Pi 2會有比較好的效果。
+
 
 
