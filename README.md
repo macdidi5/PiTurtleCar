@@ -43,7 +43,7 @@
 
 * L293D，直流馬達控制晶片
 
-![](https://github.com/macdidi5/ARMmbedTurtleCar/blob/master/images/L293D.png)
+![](https://github.com/macdidi5/PiTurtleCar/blob/master/images/L293D.png)
 
 ## 安裝Webcam串流模組 - mjpg-streamer
 
@@ -104,7 +104,31 @@
 
 8. Raspberry Pi重新啟動以後，Mosquitto就會開始提供MQTT Broker服務。
 
-## 準備上場了！
+## 應用程式專案與開發環境
+
+在「apps」目錄下有兩個應用程式的原始程式碼：
+
+* TurtleCarPi
+	* Java嵌入式應用程式
+	* 在Raspberry Pi運作
+	* 使用Pi4J控制GPIO
+	* 使用Paho發佈與接收MQTT訊息
+	* NetBeans專案
+* TurtleCarMobilePi
+	* Android應用程式
+	* Android 5、API Level 22
+	* 使用Paho發佈與接收MQTT訊息
+	* Android Studio專案
+
+建立Java遠端開發環境：
+
+遠端開發環境安裝與設定請參考[http://www.codedata.com.tw/java/java-embedded-5-dev-env-remote-javase/](http://www.codedata.com.tw/java/java-embedded-5-dev-env-remote-javase/)。
+
+建立Android開發環境：
+
+Android開發環境安裝與設定請參考[http://www.codedata.com.tw/mobile/android-tutorial-the-1st-class-2-android-sdk/](http://www.codedata.com.tw/mobile/android-tutorial-the-1st-class-2-android-sdk/)。
+
+## 準備上場
 
 1. 登入Raspberry Pi以後，執行下列的指令啟動「mjpg-streamer」：
 
@@ -122,19 +146,19 @@
 
 4. 啟動Android App，選擇右上角的連線圖示：
 
-    ![](https://github.com/macdidi5/ARMmbedTurtleCar/blob/master/images/L293D.png)
+    ![](https://github.com/macdidi5/PiTurtleCar/blob/master/images/android_screen_01.png)
 
 5. 在「MQTT broker」與「」輸入Raspberry Pi的IP位址，選擇連線按鈕：
 
-    ![](https://github.com/macdidi5/ARMmbedTurtleCar/blob/master/images/L293D.png)
+    ![](https://github.com/macdidi5/PiTurtleCar/blob/master/images/android_screen_02.png)
 
 6. 連線成功後，上方顯示Webcam的即時畫面，下方可以控制車子前進、後退、左轉與右轉：
 
-    ![](https://github.com/macdidi5/ARMmbedTurtleCar/blob/master/images/L293D.png)
+    ![](https://github.com/macdidi5/PiTurtleCar/blob/master/images/android_screen_03.png)
 
 ## 後記
 
-這個專案使用MQTT技術，讓Android App控制Raspberry Pi，比較不是MQTT適合的應用。因為找不到USB藍牙給Raspberry Pi使用，透過藍牙搖控車子會比較好一些，或許以後會把這個專案改為藍牙搖控車。
+這個專案使用MQTT技術讓Android App控制Raspberry Pi，比較不是MQTT適合的應用。因為我一時找不到USB藍牙給Raspberry Pi使用，透過藍牙搖控車子會比較好一些，或許以後會把這個專案改為藍牙搖控車。
 
 
 
