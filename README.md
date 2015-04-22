@@ -4,11 +4,8 @@
 
 示範影片：
 
-* 2015/0x/xx：https://
-
 ## 歷程
 
-* 2015/03/18。開放原始程式碼，請參考[這裡](https://github.com/macdidi5/PiCommander/blob/master/ProjectNotes.md)的說明。
 
 ## 需求
 硬體：
