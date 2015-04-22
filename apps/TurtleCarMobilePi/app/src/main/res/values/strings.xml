@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TurtleCarMobilePi</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="connection_require">Connection require</string>
+    <string name="connected">Connect to MQTT broker</string>
+    <string name="connect_failure">Connection failure</string>
+
+    <string name="mqtt_broker_ip">MQTT Broker IP</string>
+    <string name="mqtt_broker_port">MQTT Broker Port</string>
+    <string name="webcam_ip">Webcam IP</string>
+</resources>

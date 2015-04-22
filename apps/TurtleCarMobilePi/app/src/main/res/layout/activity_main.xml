@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background_meter">
+
+    <RelativeLayout
+        android:layout_width="332dp"
+        android:layout_height="260dp"
+        android:background="@drawable/block_drawable"
+        android:layout_gravity="center"
+        android:layout_margin="6dp"
+        android:paddingTop="8dp">
+
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"/>
+
+    </RelativeLayout>
+
+    <net.macdidi.turtlecarmobilepi.JoyStickView
+        android:id="@+id/joy_stick_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="8dp"/>
+
+</LinearLayout>
