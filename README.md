@@ -142,7 +142,7 @@ Android開發環境安裝與設定請參考[http://www.codedata.com.tw/mobile/an
 
     ![](https://github.com/macdidi5/PiTurtleCar/blob/master/images/android_screen_01.png)
 
-5. 在「MQTT broker」與「」輸入Raspberry Pi的IP位址，選擇連線按鈕：
+5. 在「MQTT broker IP」與「Webcam IP」輸入Raspberry Pi的IP位址，選擇連線按鈕：
 
     ![](https://github.com/macdidi5/PiTurtleCar/blob/master/images/android_screen_02.png)
 
