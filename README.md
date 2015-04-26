@@ -2,7 +2,11 @@
 
 使用Android App遙控Raspberry Pi製作的車子，還可以接收從Webcam傳送的影像。
 
-示範影片： http://youtu.be/QvT3QsQqDi8
+示範影片： 
+
+* 藍牙、燈光版：https://youtu.be/MboBbJkQHZE
+* MQTT版：http://youtu.be/QvT3QsQqDi8
+
 
 ## 需求
 硬體（MQTT版）：
