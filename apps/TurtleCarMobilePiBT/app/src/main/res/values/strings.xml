@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TCMPiBT</string>
+
+    <string name="connected_msg">Connected</string>
+
+    <string name="bluetooth_error_msg">Device does not support or enable Bluetooth</string>
+
+    <string name="create_error_msg">Exception on create socket</string>
+    <string name="close_error_msg">Exception on close socket</string>
+    <string name="stream_error_msg">Exception on create stream</string>
+    <string name="write_error_msg">Exception on write</string>
+    <string name="disconnect_msg">Disconnect</string>
+</resources>
