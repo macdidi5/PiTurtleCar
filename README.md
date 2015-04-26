@@ -249,5 +249,8 @@ Android開發環境安裝與設定請參考[http://www.codedata.com.tw/mobile/an
 
     ![](https://github.com/macdidi5/PiTurtleCar/blob/master/images/android_screen_06.png)
 
+## 後記：
 
+同時在這個專案提供MQTT與藍牙兩個版本，讓大家可以學習更多不同的應用。車子的部份，市面上很容易找到可以整組的套件，我用一個塑膠盒的底部當底盤，把零件固定在上面。車殼是在文具行買的塑膠瓦愣板，30X50公分的規格就夠用了。附上車殼的尺寸圖片：
 
+![](https://github.com/macdidi5/PiTurtleCar/blob/master/images/Trunk.png)
