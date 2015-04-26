@@ -9,7 +9,8 @@
 
 
 ## 需求
-硬體（MQTT版）：
+
+### 硬體（MQTT版）
 
 * [Raspberry Pi Model B+](http://www.raspberrypi.org/products/model-b-plus/)或[Raspberry Pi 2 Model B](http://www.raspberrypi.org/products/raspberry-pi-2-model-b/)。
 * 8 GB MicroSD 記憶卡。
@@ -25,7 +26,7 @@
 * Android行動電話，Android 4.0.3或更新的版本。
 * 其它需要的零件，例如麵包板、電阻與連接線。
 
-硬體（藍牙、燈光加強版）：
+### 硬體（藍牙、燈光加強版）
 
 * MQTT版所有零件。
 * 高亮度白光LED，前方大燈，兩個
@@ -33,17 +34,17 @@
 * 紅色LED，後方煞車、倒車燈，兩個
 * HC-05藍牙模組。
 
-軟體（MQTT版）：
+### 軟體（MQTT版）
 
 * [Java SE 8 for ARM](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-arm-downloads-2187472.html)。
 * [Mosquitto](http://mosquitto.org/)，An Open Source MQTT v3.1/v3.1.1 Broker。
 * [Paho](https://eclipse.org/paho/)，MQTT v3 Java用戶端類別庫。
 
-軟體（藍牙版）：
+### 軟體（藍牙版）
 
 * [Java SE 8 for ARM](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-arm-downloads-2187472.html)。
 
-開發環境：
+### 開發環境
 
 * Java SE 8
 * NetBeans
@@ -51,15 +52,15 @@
 
 ## 線路圖
 
-* L293D，直流馬達控制晶片
+### L293D，直流馬達控制晶片
 
 ![](https://github.com/macdidi5/PiTurtleCar/blob/master/images/L293D.png)
 
-* HC-05，藍牙模組
+### HC-05，藍牙模組
 
 ![](https://github.com/macdidi5/PiTurtleCar/blob/master/images/HC05.png)
 
-* 大燈、方向燈與後方煞車、倒車燈
+### 大燈、方向燈與後方煞車、倒車燈
 
 ![](https://github.com/macdidi5/PiTurtleCar/blob/master/images/LED.png)
 
@@ -124,7 +125,7 @@
 
 ## 應用程式專案與開發環境
 
-在「apps」目錄下 __MQTT__ 版的應用程式原始程式碼：
+### 在「apps」目錄下 __MQTT__ 版的應用程式原始程式碼：
 
 * TurtleCarPi
 	* Java嵌入式應用程式
@@ -138,7 +139,7 @@
 	* 使用Paho發佈與接收MQTT訊息
 	* Android Studio專案
 
-在「apps」目錄下 __藍牙__ 版的應用程式原始程式碼：
+### 在「apps」目錄下 __藍牙__ 版的應用程式原始程式碼：
 
 * TurtleCarPiBlue
 	* Java嵌入式應用程式
@@ -152,17 +153,17 @@
 	* 透過藍牙連線到Raspberry Pi後傳送控制指令
 	* Android Studio專案
 
-建立Java遠端開發環境：
+### 建立Java遠端開發環境：
 
 遠端開發環境安裝與設定請參考[http://www.codedata.com.tw/java/java-embedded-5-dev-env-remote-javase/](http://www.codedata.com.tw/java/java-embedded-5-dev-env-remote-javase/)。
 
-建立Android開發環境：
+### 建立Android開發環境：
 
 Android開發環境安裝與設定請參考[http://www.codedata.com.tw/mobile/android-tutorial-the-1st-class-2-android-sdk/](http://www.codedata.com.tw/mobile/android-tutorial-the-1st-class-2-android-sdk/)。
 
 ## 準備上場
 
-__MQTT版__ ：
+### MQTT版
 
 1. 登入Raspberry Pi以後，執行下列的指令啟動「mjpg-streamer」：
 
@@ -190,7 +191,7 @@ __MQTT版__ ：
 
     ![](https://github.com/macdidi5/PiTurtleCar/blob/master/images/android_screen_03.png)
 
-__藍牙版__ ：
+### 藍牙版
 
 在Raspberry Pi連接HC-05藍牙模組，必須執行下列的設定：
 
