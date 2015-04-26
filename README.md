@@ -4,7 +4,7 @@
 
 示範影片： 
 
-* 藍牙、燈光版：https://youtu.be/MboBbJkQHZE
+* 藍牙、燈光加強版：https://youtu.be/MboBbJkQHZE
 * MQTT版：http://youtu.be/QvT3QsQqDi8
 
 
