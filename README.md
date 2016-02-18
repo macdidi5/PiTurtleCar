@@ -85,11 +85,11 @@
 
 4. 執行下載模組的指令：
 
-        svn co https://mjpg-streamer.svn.sourceforge.net/svnroot/mjpg-streamer mjpg-streamer
+        svn co https://svn.code.sf.net/p/mjpg-streamer/code/ mjpg-streamer
 
 5. 執行下列的指令製作模組：
 
-        cd mjpg-streamer
+        cd mjpg-streamer/mjpg-streamer
         make
         
 6. 連接Webcam到Raspberry Pi的USB，執行下列的指令檢查Webcam：
