@@ -106,7 +106,7 @@
 2. 在工作電腦使用SSH連線到Raspberry Pi。
 3. 執行下列的指令安裝Mosquitto（MQTT Broker Server）：
 
-		apt-get install mosquitto
+		sudo apt-get install mosquitto
 
 4. 執行下列的指令準備修改Raspberry Pi設定檔：
 
